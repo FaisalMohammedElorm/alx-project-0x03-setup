@@ -1,4 +1,4 @@
-c:\Users\Hp\OneDrive\Pictures\Screenshots\Screenshot (204).png c:\Users\Hp\OneDrive\Pictures\Screenshots\Screenshot (203).png
+
 
 # alx-project-0x03-setup
 
