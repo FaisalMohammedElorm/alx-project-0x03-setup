@@ -1,41 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+c:\Users\Hp\OneDrive\Pictures\Screenshots\Screenshot (204).png c:\Users\Hp\OneDrive\Pictures\Screenshots\Screenshot (203).png
 
-## Getting Started
+# alx-project-0x03-setup
 
-First, run the development server:
+This project is part of the ALX Next.js setup tasks.
+It demonstrates how to handle unknown routes in a **file-based routing system** by creating a **custom 404 error page**.
+
+---
+
+## 📌 Objective
+
+When a user navigates to a route that doesn’t exist in the `pages/` directory, Next.js will resolve to a **404 page not found**.
+By default, Next.js provides a simple 404 page, but here we override it with a custom styled error page.
+
+---
+
+## 🛠️ Features
+
+* Custom 404 error page (`pages/404.tsx`)
+* Tailwind CSS styling
+* Funny error message with emoji support 👽
+* Button to navigate back to the home page 🏠
+* Integrated **react-icons** for a clean design
+
+---
+
+## 📂 Project Structure
+
+```
+alx-project-0x03-setup/
+│── pages/
+│   ├── index.tsx
+│   ├── 404.tsx   <-- Custom error page
+│── package.json
+│── tailwind.config.js
+│── README.md
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/FaisalMohammedElorm/alx-project-0x03-setup.git
+cd alx-project-0x03
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 4. Open the app
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Visit:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```
+http://localhost:3000
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+Try navigating to a random path, e.g.
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+http://localhost:3000/unknown-pathname
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📸 Preview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+* Large heading: **Oops! 😱**
+* Description of missing page
+* Funny alien abduction message 👽
+* "Go Back Home" button with a home icon
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧑‍💻 Technologies Used
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* [Next.js](https://nextjs.org/)
+* [Tailwind CSS](https://tailwindcss.com/)
+* [React Icons](https://react-icons.github.io/react-icons/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
-"# alx-project-0x03-setup" 
+---
+
+## ✅ Task Checklist
+
+* [x] Create `pages/404.tsx`
+* [x] Add custom error message
+* [x] Style with Tailwind CSS
+* [x] Add navigation button with icon
+* [x] Test on unknown routes
+
+---
+
+## 📜 License
+
+This project is for learning purposes under the ALX program.
+Feel free to use and customize it.
