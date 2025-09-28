@@ -1,4 +1,7 @@
 
+![alt text](<Screenshot (203).png>)
+
+![alt text](<Screenshot (204).png>)
 
 # alx-project-0x03-setup
 
@@ -106,3 +109,4 @@ http://localhost:3000/unknown-pathname
 
 This project is for learning purposes under the ALX program.
 Feel free to use and customize it.
+
