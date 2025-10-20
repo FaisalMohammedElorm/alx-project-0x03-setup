@@ -2,7 +2,7 @@ import Button from "@/components/common/Button";
 import { useRouter } from "next/router";
 import { PageRouteProps } from "@/interface";
 
-export default function Home() {
+const Home() {
   const router = useRouter();
 
   // Imperative routing with useRouter
@@ -40,3 +40,4 @@ export default function Home() {
     </div>
   );
 }
+export default Home;
